@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jtzib Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(173, 5, 245);
+      margin: 0;
+      color: black;
+      font-weight: bold;
+      font-style: italic;
+      
+    }
+    
+    body h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 35px;
+      font-style: italic;
+      text-shadow: 5px 0px 5px #ffffff;
+    }
+
+    body p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 20px;
+      font-style: italic;
+      text-shadow: 10px 5px 5px #000000;
+    }
+        body a {
+      color: #7984f7;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px #000000;
+      transition: color 0.3s ease;
+    }
+
+    body a:hover {
+      color: #00ffcc;
+      text-decoration: underline;
+    }
+
+    header {
+      background-color: rgb(0, 94, 126);
+      padding: 10px;
+      text-align: center;
+      font-size: 25px;
+      height: 150x;
+    }
+    
+    header h1 {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 5px 0px 5px #490093;
+      font-size: 50px;
+    }
+
+    header p1 {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 5px 0px 5px #0000f0;
+      font-size: 40px;
+    }
+
+    footer {
+      background-color: #fefeff4c;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+
+    #bg-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("musical.jpg"); /* your image file */
+      background-size: cover;       /* fill screen */
+      background-position: center;  /* keep centered */
+      background-repeat: no-repeat; /* no tiling */
+      background-attachment: fixed; /* stays in place when scrolling */
+      z-index: -1;                  /* push behind everything */
+    }
+
+ </style>
+</head>
+<body>
+<header>
+<div>
+  <h1> <font-size: 50px> My First Bootstrap Page </font-size: 50px></h1>
+  <p1>Extra Details About Me!</p1> 
+</div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>My Hobbies</h3>
+      <br>
+      <p>- Song Writing
+      <br>
+      <br>
+         - Gaming 
+      <br>
+      <br>
+         - Coding 
+      <br>
+      <br> 
+         - Algebra 
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Favorite Things</h3>
+      <p>Watching Series<br>
+        <img src="ds+sxf.jpg" alt="FOC" style="width:300px;height:182px;">
+      Games <br>
+        <img src="games.jpg" alt="FOC" style="width:300px;height:280px;">
+      Astronomy <br>
+        <img src="astronomy.jpg" alt="FOC" style="width:300px;height:182px;">
+      Psychology <br> </p>
+        <img src="psycho.jpg" alt="FOC" style="width:300px;height:182px;">
+    </div>
+    <div class="col-sm-4">
+      <h3>Song Likings</h3>        
+    <p>
+    Neffex: Save A life: <br> <audio controls>
+  <source src="savealife.mp3" type="audio/mpeg">
+  <source src="savealife.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+Citizen Soldier: It Doesn't Get Better <br>
+ <audio controls>
+  <source src="It Doesn't Get Better.mp3" type="audio/mpeg">
+  <source src="It Doesn't Get Better.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio> <br>
+Kyle Hume: Spiral Out <br>
+ <audio controls>
+  <source src="spiralout.mp3" type="audio/mpeg">
+  <source src="spiralout.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+<br>
+     <a href="https://jtzai.github.io/html/devteam.html"> - About Me</a>
+     <div id="bg-image"></div> 
+      </p>
+  </div>
+</div>
+</body>
+</html>
